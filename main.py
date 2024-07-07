@@ -105,12 +105,11 @@ while True:
     try:
 
         # Publicar la distancia al feed MQTT
-        # publicar_distance(None)
-        # time.sleep(2)
 
+        #inicializacion de condicion para luego usarlo
         distance1 = round(sensor.distance_cm())
         
-        #Uso del display
+        #Uso del display y actualizacion de adafruit en caso de algun cambio
         if distance1 != last_distance:
             publicar_distance(None)
             # Ajusta la posición para los números
