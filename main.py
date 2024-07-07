@@ -41,12 +41,13 @@ def publicar_distance(timer):
 #MQTT
 mqtt_server = "io.adafruit.com"
 port = 1883
-user = 'MauroDiaz' 
-password = 'aio_RgFq24VdQAwK5tP7FHKudKWlR0NJ' 
-client_id = 'project' 
+user = '' #se coloca user de Adafruit 
+password = '' #se coloca user key de Adafruit 
+client_id = '' #nombre del feed de Adafruit 
 
-topic_1 = 'MauroDiaz/feeds/alarma'
-topic_2 = 'MauroDiaz/feeds/Proximidad'
+#Donde dice user colocar el respectivo nombre
+topic_1 = 'User/feeds/alarma'
+topic_2 = 'User/feeds/Proximidad'
 
 
 # ===========================
